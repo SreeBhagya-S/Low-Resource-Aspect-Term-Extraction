@@ -1,0 +1,601 @@
+memory-
+gb
+ജിബി
+kb
+mb
+storage
+ram
+512
+256
+128
+64
+\d+(?:\.\d+)?\s?(?:KB|MB|GB|TB|kb|mb|gb|tb)
+
+screen-
+സ്ക്രീൻ
+screen
+display
+ഡിസ്പ്ലൈ
+ഡിസ്പപ്ലെ
+ഡിസ്പ്ലേ
+resolution
+refresh rate
+touch
+ടച്ച്
+scratch
+crack
+curved
+curve
+curved corners
+bend
+bend gate
+green line
+red line
+dead pixels
+line issue
+screen bleeding
+ghost touch
+screen flicker
+touch not working
+touch response
+multitouch
+responsive screen
+non-responsive screen
+screen protector
+tempered glass
+led
+oled
+amoled
+lcd
+retina
+hd
+hdr
+hdr10
+hdr10+
+full hd
+uhd
+ultra hd
+4k
+boxy design
+flat display
+edge display
+bezel-less
+notch
+punch hole
+cutout
+screen size
+inch display
+large display
+wide display
+mobile screen
+phone screen
+screen ratio
+aspect ratio
+screen resolution
+scratch proof
+dust resistant
+dust resistance
+water resistant
+water resistance
+water proof
+gorilla glass
+display quality
+screen clarity
+screen sharpness
+color accuracy
+touch sensitivity
+finger smudges
+sunlight visibility
+anti glare
+anti fingerprint
+eye comfort mode
+blue light filter
+screen refresh rate
+adaptive refresh rate
+adaptive display
+dark mode
+dark mode issue
+dark theme
+theme problem
+ui-ux-
+dark mode
+theme setting
+dark theme
+theme issue
+
+
+
+camera-
+ക്യാമറ
+clear
+telephoto
+ടെലിഫോട്ടോ
+ultrawide
+lens
+ലെൻസ് 
+pixel
+പിക്സെൽ
+പിക്സൽ 
+quality
+ക്വാലിറ്റി
+ക്വാളിറ്റി
+clarity
+ക്ലാരിറ്റി
+ക്ളാരിറ്റി
+fps
+mp
+periscope
+pic
+portrait
+പിക്
+ഫോട്ടോ 
+pixel quality
+പിക്സൽ ക്വാളിറ്റി
+image
+picture
+video
+ക്യാമറ
+വീഡിയോ
+വീഡിയോ നിലവാരം
+ഫോട്ടോഗ്രഫി
+റെക്കോർഡിങ് 
+ഫോക്കസ് 
+zoom
+zooming technology
+edge detection
+video edit
+front
+back
+rear
+slowmotion
+slowmotion video
+
+phone-
+ഫോൺ 
+mobile
+mobile phone
+phone
+pro
+xiaomi
+Xiaomi Pad 7
+Xiaomi Pad 8
+Xiaomi Pad 9
+Xiaomi Pad 10
+Xiaomi Pad 11
+Xiaomi Pad 12
+Xiaomi Pad 13
+Xiaomi Pad 14
+Xiaomi Pad 15
+apple
+ആപ്പിൾ
+iphone
+i phone
+ഐഫോൺ
+ഐ ഫോൺ
+ഐഫോൺ se
+IPhone 4s
+iphone 5
+iphone 5s
+iphone 6
+ഐഫോൺ 6
+iphone 6
+iphone 6s
+iphone 7
+7 പ്ലസ്
+7 plus
+7 se
+iphone 7 se 
+iPhone 11
+iphone 11
+iphone 12
+12pro
+Iphone 12  
+12 Pro Max 
+iphone 12 mini
+iphone 13 pro
+13 mini
+13promax
+13pro max
+13pro
+iphone 13pro Max
+13pro Max
+13 pro
+iphone 13 mini
+iphone 13
+iphone 14 pro
+iphone 14 plus
+iphone 14
+14 pro
+14 പ്രൊ
+14 പ്രൊ max 
+14 പ്രൊmax
+14 plus
+iphone 14
+14 പ്രൊ
+iphone x
+x
+iphone xs
+iphone se
+moto
+motorola edge 40
+samsung
+galaxy
+samsung S22 ultra
+സാംസങ്
+samsung A 71
+A 71
+a 73
+സാംസങ് A 72 
+samsung A 72
+s22
+S22 ultra
+23ultra
+s23 ultra
+s 23 Ultra
+s23
+s24
+samsung S10
+galaxy s21 ultra 
+galaxy
+s21 ultra 
+samsung m14
+m14
+s8
+mi
+realmex2pro
+oppo
+12pro
+13pro
+iphone 13pro Max
+13 pro
+OnePlus Nord CE 2 Lite
+OnePlus 7T pro
+iQOO 11
+iqoo
+nothing phone1
+motorolla
+moto
+മോട്ടോറോള
+motorolla edge 20 lite
+moto edge 20
+edge 30
+moto g 82
+edge 20 lite
+moto edge 20 lites
+motorolla edge 20 fusion
+edge 20 fusion
+infinix
+Redmi
+Redmi Note
+Redmi Note 8
+realme
+note
+max
+pro
+plus
+ultra
+edge
+prime
+neo
+x
+z
+gt
+series
+edition
+generation
+gen
+lenovo
+huawei
+honor
+asus
+rog
+blackshark
+nokia
+lava
+micromax
+techno
+itel
+sharp
+doogee
+gionee
+panasonic
+alcatel
+leeco
+yu
+karbonn
+coolpad
+zte
+meizu
+bluboo
+intex
+blu
+cat phone
+sony
+realme narzo
+nubia
+xolo
+rog phone
+zenfone
+play edition
+k series
+y series
+p series
+c series
+edge plus
+max pro
+g series
+n series
+v series
+motorola razr
+surface duo
+mix fold
+find x
+reno series
+note pro+
+flip 4
+fold 5
+s pen
+xperia
+xperia 1 V 
+xperia5 iv 
+xperia5
+tab s9
+ipad mini
+ipad pro
+ipad air
+മൊബൈൽ
+ഫോണുകൾ
+ടാബ്
+ഐപാഡ്
+ആൻഡ്രോയ്ഡ് ഫോൺ
+ടച്ച് സ്ക്രീൻ 
+ഡ്യുവൽ സിം
+ഹാൻഡ് സെറ്റ് 
+(?:iphone|redmi|realme|note|oneplus|pixel|moto|galaxy|samsung|iqoo|poco)?\s?\d{1,3}[a-zA-Z]{0,3}
+(?:note|edge|series|pro|plus|max)?\s?\d{1,2}(?:[a-z]{1,2})?\s?(ultra|pro|max|plus|lite|neo)?
+(?:redmi|realme|iqoo|moto|vivo|poco|oneplus|samsung|honor|pixel|oppo)\s?(?:[a-z]?\d{1,2}[a-z]?\s?(?:pro|max|lite|neo)?)?
+(?:ipad|iphone|rog phone|zenfone|surface duo)\s?\d{0,2}
+
+
+
+os-
+android
+ios
+windows
+
+tablet-
+macbook
+ipad air 5
+ipad 9th gen
+xiaomi pad 6
+oneplus pad
+iPad pro 2020
+
+laptop-
+dell
+lenovo
+hp
+
+battery-
+backup
+heat
+overheating
+ഓവർ heating
+freezing
+heating
+cooling
+thermal
+thermal management
+heat issue
+ഹീറ്റ്ഇഷ്യു
+ഹീറ്റ്  ഇഷ്യൂ 
+ഹീറ്റ്  
+കൂളിംഗ് സിസ്റ്റം
+ചാർജ്
+charger
+ചാർജ്ജർ
+ചാർജിങ് ടൈം 
+charging time
+fast charging
+drain
+charging adapter 
+cable
+c type
+charger
+battery Case
+ബാറ്ററി കേസ് 
+ബാറ്ററി
+ബാറ്ററി Case
+power 
+power bank
+കപ്പാസിറ്റി
+
+software-
+os
+ഓപ്പറേറ്റിംഗ് സിസ്റ്റം
+update
+hang
+ഹാങ്
+lag
+stuck
+apk
+androind package kit
+privacy
+notifications
+block
+സോഫ്റ്റ്വെയർ
+പ്രൊസസർ
+iOS
+bug
+update
+അപ്ഗ്രേഡ്
+
+processor-
+snapdragon
+chip
+sd855
+sd855+
+sd855plus
+exynos
+m1 processor
+a14 chip
+apple a14 chip 
+ടാറ്റ ട്രാൻസ്ഫർ സ്പീഡ് 
+ഡാറ്റ ട്രാൻസ്ഫഫർ സ്പീഡ് 
+processor
+chipset
+ചിപ്പ് സെറ്റ് 
+GPU
+CPU
+octa core
+quad core
+
+
+applications-
+app
+apps
+gaming
+gaming
+game
+pubg
+iTunes 
+iCloud
+icloud
+gaming mode
+focus mode
+guided access
+xender
+jbl
+ആപ്ലിക്കേഷനുകൾ
+fb
+whatsapp
+youtube
+facebook
+watsapp
+utube
+
+price-
+expensive
+high
+low
+budget
+price
+worth
+വില
+(?:₹|Rs\.?|INR)?\s?\d+(?:,\d{2,3})*(?:\.\d+)?\s?[kKlL]?\b
+
+speaker-
+loud
+mono
+dual
+സ്പീക്കർ
+മൈക്ക്
+buds
+മൗത്ത്പീസ്
+മുഴക്കം
+soundcore
+sound clarity
+സൗണ്ട് ക്ലാരിറ്റി
+ബാസ്
+ഓവർബാസ്
+punch hole stereo 
+
+
+network-
+3g
+4g
+5g
+3ജി
+4ജി
+5ജി
+airtel
+jio
+റേഞ്ച്
+
+hardware-
+usb
+tab
+cable
+ടാബ്ലറ്റ്
+ടാബ്ലെറ്റ് 
+ലാപ്ടോപ്പ്
+ഇയർഫോൺ
+head set
+head phone
+ഹെഡ്ഫോൺ
+ear phone
+mic
+
+
+design-
+curved
+curved display
+bend
+സ്ക്രീൻ
+premium look
+ഡിസൈൻ 
+ബോഡി 
+
+general-
+airpod
+air pod 
+air pod pro
+airpodpro
+warranty
+വാറന്റി
+വാറൻറ്റി 
+weight
+ഭാരം
+വലിപ്പം
+size
+കുഞ്ഞ് 
+കുഞ്ഞൻ  
+ചെറുത്
+sensors
+സെൻസർ
+സെൻസറുകൾ 
+ക്ലാരിറ്റി
+clarityt
+ബിൽഡ് ക്വാളിറ്റി 
+build quality
+service
+service center
+സർവീസ് 
+സർവീസ് സെന്റർ
+സർവീസ് സെൻറെർ 
+fingerprint magnet 
+dolby vision
+look 
+കംപ്രഷൻ ഫോർമാറ്റ് 
+കംപ്രഷൻ 
+performance
+speed
+lag
+hang
+slowness
+smooth
+smoothness
+fast
+slow
+responsive
+responsiveness
+performance issues
+frame drop
+multitasking
+switching apps
+app load time
+RAM usage
+benchmark
+antutu
+geekbench
+gaming performance
+lag free
+heavy usage
+system stability
+UI performance
+animation lag
+stutter
+frame rate
+fps
+high fps
+low fps

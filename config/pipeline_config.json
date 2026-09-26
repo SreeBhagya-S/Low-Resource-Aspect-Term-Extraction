@@ -1,0 +1,27 @@
+{
+  "selection_split": "fixed seed-42 validation only",
+  "seed": 42,
+  "validation_reviews": 80,
+  "test_reviews_used_for_selection": 0,
+  "selection_metric": "strict IOB2 span-level micro-F1",
+  "best_config": {
+    "exact_context_threshold": 0.35,
+    "trigger_context_threshold": 0.6,
+    "fuzzy_context_threshold": 0.55,
+    "disable_regex": true,
+    "disable_fuzzy": false
+  },
+  "validation_metrics": {
+    "micro_precision": 0.4875,
+    "micro_recall": 0.6842105263157895,
+    "micro_f1": 0.5693430656934307,
+    "micro_support": 57,
+    "macro_precision": 0.5056547619047619,
+    "macro_recall": 0.5004251700680272,
+    "macro_f1": 0.4568753192976796,
+    "weighted_precision": 0.706578947368421,
+    "weighted_recall": 0.6842105263157895,
+    "weighted_f1": 0.633567779792036
+  },
+  "disclosure": ".........."
+}
