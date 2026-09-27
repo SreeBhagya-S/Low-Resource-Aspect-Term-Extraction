@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "device": "cuda",
+  "batch_size": 8,
+  "learning_rate": 0.001,
+  "max_epochs": 30,
+  "patience": 6,
+  "word_embedding_dim": 100,
+  "char_embedding_dim": 32,
+  "char_hidden_dim": 32,
+  "word_hidden_dim": 128,
+  "dropout": 0.3,
+  "gradient_clip_norm": 5.0,
+  "outside_class_weight_scale": 0.5,
+  "auxiliary_ce_weight": 0.5,
+  "improvement_tolerance": 1e-08
+}
