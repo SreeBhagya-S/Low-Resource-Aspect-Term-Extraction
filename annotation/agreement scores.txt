@@ -1,0 +1,66 @@
+==============================================================================
+INTER-ANNOTATOR AGREEMENT - Manglish ATE BIO annotation
+==============================================================================
+Annotators : A1, A2, A3 (all labelled the same material)
+Reviews    : 1,000
+Tokens     : 15,824
+Bootstrap  : 10,000 cluster resamples over reviews, seed = 2590790006
+Label set  : 25 IOB2 tags; 1,183 tokens called an aspect by >=1 annotator
+
+------------------------------------------------------------------------------
+FULL IOB2 LABEL SET
+------------------------------------------------------------------------------
+Pair             Raw agreement   Cohen kappa                  95% CI
+A1-A2                   0.9784        0.8053        [0.7847, 0.8251]
+A1-A3                   0.9789        0.8121        [0.7906, 0.8327]
+A2-A3                   0.9790        0.8133        [0.7927, 0.8333]
+Mean pairwise Cohen                   0.8103   95% CI [0.7940, 0.8260]
+Fleiss kappa (3 raters)               0.8103   95% CI [0.7940, 0.8260]
+Krippendorff alpha                    0.8103   95% CI [0.7940, 0.8260]
+Unanimous tokens                      0.9685
+
+------------------------------------------------------------------------------
+BINARY: aspect token vs. O
+------------------------------------------------------------------------------
+Pair             Raw agreement   Cohen kappa                  95% CI
+A1-A2                   0.9798        0.8133        [0.7924, 0.8335]
+A1-A3                   0.9803        0.8206        [0.7987, 0.8416]
+A2-A3                   0.9803        0.8206        [0.8003, 0.8405]
+Mean pairwise Cohen                   0.8182   95% CI [0.8018, 0.8340]
+Fleiss kappa (3 raters)               0.8182   95% CI [0.8018, 0.8341]
+Krippendorff alpha                    0.8182   95% CI [0.8018, 0.8341]
+Unanimous tokens                      0.9702
+
+------------------------------------------------------------------------------
+SPAN-LEVEL EXACT-MATCH AGREEMENT (no chance correction is defined)
+------------------------------------------------------------------------------
+Pair                  F1                  95% CI   Agreed   Only A   Only B
+A1-A2             0.7902        [0.7683, 0.8116]      678      183      177
+A1-A3             0.7968        [0.7751, 0.8173]      690      171      181
+A2-A3             0.7995        [0.7782, 0.8203]      690      165      181
+Mean              0.7955
+
+------------------------------------------------------------------------------
+DISAGREEMENT PROFILE
+------------------------------------------------------------------------------
+Tokens with any disagreement      : 499 (3.15%)
+  resolvable by 2-1 majority      : 489 (98.0%)
+  three-way split, no majority    : 10
+Reviews with >=1 disagreement     : 298 of 1,000
+
+
+Most frequent disagreement patterns (A1 / A2 / A3):
+     45   O               O               B-phone
+     40   B-phone         O               O
+     31   O               B-phone         O
+     30   B-camera        O               O
+     28   O               B-camera        O
+     26   O               O               B-camera
+     18   B-camera        O               B-camera
+     18   B-phone         O               B-phone
+     18   O               B-phone         B-phone
+     14   O               B-camera        B-camera
+      9   B-software      O               O
+      8   O               B-network       O
+
+Saved 499 disagreement rows -> disagreements.csv
