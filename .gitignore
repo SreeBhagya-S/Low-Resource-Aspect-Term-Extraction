@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Local caches/checkpoints
+cache/
+tmp/
+checkpoints/
+*_checkpoints/
+
+# Disposable rerun products
+outputs/current_run/
+
+# Large model artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors

@@ -652,13 +652,13 @@ class ContextEncoder:
             phrases = []
             seen = set()
 
-                
+
             for e in entries:
 
                 # Regex entries cannot be encoded as lexical phrases.
                 if e.regex:
                     continue
-            
+
                 # V3:
                 # Do not include the category header itself when
                 # constructing its semantic centroid.
@@ -667,9 +667,9 @@ class ContextEncoder:
                 # "phone" was used to construct the phone centroid.
                 if e.category_trigger:
                     continue
-            
-                phrase = e.normalized    
-   
+
+                phrase = e.normalized
+
                 if len(phrase) < 2 or phrase in seen:
                     continue
                 seen.add(phrase)
@@ -942,7 +942,7 @@ def semantic_candidate_matches(
             proposals.append(candidate)
 
     return proposals
-    
+
 def context_filter_candidates(
     candidates,
     exact_threshold,
@@ -1054,7 +1054,7 @@ def candidate_rank(c: Candidate):
         c.lexical_score,
         -c.start
     )
-    
+
 
 def best_per_span(candidates: Sequence[Candidate]) -> List[Candidate]:
     grouped: Dict[Tuple[int, int], List[Candidate]] = defaultdict(list)
@@ -1379,11 +1379,11 @@ class ATEPipeline:
         self.enable_semantic_discovery = (
             enable_semantic_discovery
         )
-        
+
         self.semantic_score_threshold = (
             semantic_score_threshold
         )
-        
+
         self.semantic_margin_threshold = (
             semantic_margin_threshold
         )
@@ -1574,15 +1574,15 @@ class ATEPipeline:
                 and self.encoder is not None
                 and tokens
             ):
-            
+
                 # Tokens already covered by surviving lexical candidates.
                 occupied = set()
-            
+
                 for c in raw:
                     occupied.update(
                         range(c.start, c.end)
                     )
-            
+
                 semantic_candidates = semantic_candidate_matches(
                     tokens=tokens,
                     normalizer=self.normalizer,
@@ -1595,7 +1595,7 @@ class ATEPipeline:
                     score_threshold=self.semantic_score_threshold,
                     margin_threshold=self.semantic_margin_threshold,
                 )
-            
+
                 raw.extend(semantic_candidates)
 
 
@@ -1879,7 +1879,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
             "category score for contextually ambiguous candidates."
         )
     )
-    
+
     p.add_argument(
     "--enable-semantic-discovery",
     action="store_true",
@@ -1888,7 +1888,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "not covered by lexical candidates."
         )
     )
-    
+
     p.add_argument(
         "--semantic-score-threshold",
         type=float,
@@ -1898,7 +1898,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
             "for a semantic candidate."
         )
     )
-    
+
     p.add_argument(
         "--semantic-margin-threshold",
         type=float,

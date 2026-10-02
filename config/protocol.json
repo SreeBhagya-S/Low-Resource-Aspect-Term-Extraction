@@ -1,0 +1,78 @@
+{
+  "protocol_version": "1.1",
+  "protocol_name": "fixed_holdout_dual_supervision",
+  "corpus": {
+    "annotated_reviews": 1000,
+    "input_file": "data/evaluation_input.csv",
+    "gold_file": "data/evaluation_gold.csv"
+  },
+  "split_assignment": {
+    "manifest": "data/dual_regime_protocol_manifest.csv",
+    "outer_seed": 42,
+    "outer_role_column": "Outer_Role",
+    "development_role": "development",
+    "final_test_role": "final_test",
+    "development_reviews": 800,
+    "final_test_reviews": 200,
+    "note": "The checked-in manifest is the fixed assignment used for the reported final experiments; reproduction consumes this manifest rather than regenerating membership."
+  },
+  "test_evaluation": {
+    "manifest": "data/fixed_test_manifest_seed42.csv",
+    "index_column": "Original_Row_Index",
+    "tagging_scheme": "IOB2",
+    "evaluation_mode": "strict",
+    "span_matching": "exact"
+  },
+  "proposed_pipeline": {
+    "role_column": "Pipeline_Role",
+    "configuration_role": "configuration",
+    "configuration_reviews": 80,
+    "test_role": "test",
+    "bio_supervised_model_training": false,
+    "encoder_fine_tuning": false,
+    "frozen_configuration": "config/pipeline_config.json"
+  },
+  "supervised_regimes": {
+    "full_supervision": {
+      "role_column": "Full_Supervised_Role",
+      "training_role": "train",
+      "validation_role": "validation",
+      "test_role": "test",
+      "training_reviews": 720,
+      "validation_reviews": 80
+    },
+    "low_resource": {
+      "role_column": "Low_Resource_Role",
+      "training_role": "train",
+      "validation_role": "validation",
+      "test_role": "test",
+      "annotation_budget_reviews": 80,
+      "training_reviews": 64,
+      "validation_reviews": 16
+    }
+  },
+  "random_seeds": {
+    "transformer_base_seed": 3003,
+    "transformer_model_order": [
+      "mbert",
+      "indicbert",
+      "xlmr"
+    ],
+    "transformer_effective_seeds": {
+      "mbert": 3003,
+      "indicbert": 3004,
+      "xlmr": 3005
+    },
+    "char_bilstm_crf": 3006
+  },
+  "configuration_files": {
+    "pipeline": "config/pipeline_config.json",
+    "transformers": "config/transformer_config.json",
+    "char_bilstm_crf": "config/char_bilstm_config.json"
+  },
+  "output_policy": {
+    "current_run_directory": "outputs/current_run",
+    "reference_outputs_directory": "outputs/reference_run",
+    "reference_outputs_are_inputs": false
+  }
+}

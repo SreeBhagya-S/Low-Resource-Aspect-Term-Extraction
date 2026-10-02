@@ -12,6 +12,5 @@
   "patience": 5,
   "selection_metric": "eval_loss",
   "greater_is_better": false,
-  "fp16": true,
-  "checkpoint_root": "/content/ate_review_checkpoints"
+  "fp16": true
 }

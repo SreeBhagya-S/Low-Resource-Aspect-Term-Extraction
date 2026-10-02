@@ -1,27 +1,31 @@
 {
-  "selection_split": "fixed seed-42 validation only",
-  "seed": 42,
-  "validation_reviews": 80,
-  "test_reviews_used_for_selection": 0,
-  "selection_metric": "strict IOB2 span-level micro-F1",
-  "best_config": {
-    "exact_context_threshold": 0.35,
-    "trigger_context_threshold": 0.6,
-    "fuzzy_context_threshold": 0.55,
-    "disable_regex": true,
-    "disable_fuzzy": false
+  "text_column": "Review_Text",
+  "model": {
+    "name": "bert-base-multilingual-cased",
+    "max_length": 128
   },
-  "validation_metrics": {
-    "micro_precision": 0.4875,
-    "micro_recall": 0.6842105263157895,
-    "micro_f1": 0.5693430656934307,
-    "micro_support": 57,
-    "macro_precision": 0.5056547619047619,
-    "macro_recall": 0.5004251700680272,
-    "macro_f1": 0.4568753192976796,
-    "weighted_precision": 0.706578947368421,
-    "weighted_recall": 0.6842105263157895,
-    "weighted_f1": 0.633567779792036
+  "fuzzy_cutoff": 0.75,
+  "thresholds": {
+    "exact": 0.35,
+    "trigger": 0.6,
+    "fuzzy": 0.55
   },
-  "disclosure": ".........."
+  "category_margin_threshold": 0.03,
+  "taxonomy": "evaluation16",
+  "components": {
+    "morphology": true,
+    "stopword_sentiment_filter": true,
+    "fuzzy_matching": true,
+    "regex_matching": false,
+    "contextual_filtering": true,
+    "category_guard": true,
+    "evidence_overlap_resolution": true
+  },
+  "semantic_discovery": {
+    "enabled": false
+  },
+  "neighbor_extension": {
+    "enabled": false
+  },
+  "allow_wordnet_fallback": false
 }

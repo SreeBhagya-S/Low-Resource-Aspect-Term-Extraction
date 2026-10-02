@@ -1,0 +1,14 @@
+setuptools<82
+setuptools_scm<8
+wheel
+numpy
+pandas
+scikit-learn==1.6.1
+seqeval==1.2.2
+transformers==5.16.1
+datasets==4.8.5
+huggingface-hub==1.29.0
+accelerate
+pytorch-crf
+nltk
+sentencepiece
