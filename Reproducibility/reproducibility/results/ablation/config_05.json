@@ -1,0 +1,31 @@
+{
+  "text_column": "Review_Text",
+  "model": {
+    "name": "bert-base-multilingual-cased",
+    "max_length": 128
+  },
+  "fuzzy_cutoff": 0.75,
+  "thresholds": {
+    "exact": 0.35,
+    "trigger": 0.6,
+    "fuzzy": 0.55
+  },
+  "category_margin_threshold": 0.03,
+  "taxonomy": "evaluation16",
+  "components": {
+    "morphology": true,
+    "stopword_sentiment_filter": true,
+    "fuzzy_matching": true,
+    "regex_matching": false,
+    "contextual_filtering": true,
+    "category_guard": false,
+    "evidence_overlap_resolution": true
+  },
+  "semantic_discovery": {
+    "enabled": false
+  },
+  "neighbor_extension": {
+    "enabled": false
+  },
+  "allow_wordnet_fallback": false
+}

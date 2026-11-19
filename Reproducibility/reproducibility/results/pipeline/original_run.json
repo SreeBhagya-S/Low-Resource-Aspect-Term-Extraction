@@ -1,0 +1,46 @@
+{
+  "configuration": {
+    "text_column": "Review_Text",
+    "model": {
+      "name": "bert-base-multilingual-cased",
+      "max_length": 128
+    },
+    "fuzzy_cutoff": 0.75,
+    "thresholds": {
+      "exact": 0.35,
+      "trigger": 0.6,
+      "fuzzy": 0.55
+    },
+    "category_margin_threshold": 0.03,
+    "taxonomy": "evaluation16",
+    "components": {
+      "morphology": true,
+      "stopword_sentiment_filter": true,
+      "fuzzy_matching": true,
+      "regex_matching": false,
+      "contextual_filtering": true,
+      "category_guard": true,
+      "evidence_overlap_resolution": true
+    },
+    "semantic_discovery": {
+      "enabled": false
+    },
+    "neighbor_extension": {
+      "enabled": false
+    },
+    "allow_wordnet_fallback": false
+  },
+  "input": "C:\\Users\\sreeb\\Desktop\\IDT_R3\\R3\\R2_checks\\test_input_200.csv",
+  "output": "C:\\Users\\sreeb\\Desktop\\IDT_R3\\R3\\R2_test_run\\original_pipeline_predictions_200.csv",
+  "resources": {
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\config\\pipeline_config.json": "56f2ce3854b4b608fc83b5b6917b9987f9d670f625c19983fdb22888bf500839",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\aspect_lexicon.txt": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\merged_stopwords.txt": "4dfca40e8740b0cfb1db36addf66803fa8ef755ac944a2a792d9498812caffbb",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\malayalam_suffix_1.txt": "d4e8e60d1690f8b00405076da29a9f42d6d9bf46973d8390776403e47e8c428a",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\malayalam_suffixmorph.txt": "90d85045a67d5f3ce4aadc7c38bcbbf840e47759a4549300b8a2adb21ce460a2",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\negative-words_english.txt": "96fc3bf25809bc9269e4d273dc62f387964c1537e248e80195d852755d1fd0f1",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\neg_word_malayalam.txt": "d76fbfd0270caa9f0e7b2109d4d3ab5e22730709693c962e5cf37c6480a28b40",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\positive-words_english.txt": "e2c03013fc858f2e65d47fab056b94cf94bd8b09b918f7febe7db61a730ff5a1",
+    "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\resources\\pos_words_malayalam.txt": "dc764ee68ba50d2364b309551e0cdd4ae59281b21fa53fd296ea3555598cff14"
+  }
+}

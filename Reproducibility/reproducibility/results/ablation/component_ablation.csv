@@ -1,0 +1,8 @@
+Configuration,Precision,Recall,F1,Support,Prediction_File,Contribution_F1,Contribution
+Full pipeline,0.3709677419354839,0.8098591549295775,0.5088495575221239,142,R3_component_ablation_fixed200\prediction_00.csv,0.0,neutral
+Without morphology,0.3685897435897436,0.8098591549295775,0.5066079295154186,142,R3_component_ablation_fixed200\prediction_01.csv,0.002241628006705354,positive
+Without stopword/sentiment filtering,0.3411764705882353,0.8169014084507042,0.4813278008298756,142,R3_component_ablation_fixed200\prediction_02.csv,0.027521756692248323,positive
+Without fuzzy lexical matching,0.3758169934640523,0.8098591549295775,0.5133928571428572,142,R3_component_ablation_fixed200\prediction_03.csv,-0.004543299620733299,negative
+Without contextual filtering,0.2850574712643678,0.8732394366197183,0.4298093587521663,142,R3_component_ablation_fixed200\prediction_04.csv,0.0790401987699576,positive
+Without category guard,0.3709677419354839,0.8098591549295775,0.5088495575221239,142,R3_component_ablation_fixed200\prediction_05.csv,0.0,neutral
+Without evidence-aware overlap resolution,0.3774193548387097,0.823943661971831,0.5176991150442478,142,R3_component_ablation_fixed200\prediction_06.csv,-0.008849557522123908,negative

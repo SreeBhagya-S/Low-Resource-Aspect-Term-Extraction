@@ -1,0 +1,51 @@
+{
+  "purpose": "Exploratory paired whole-review bootstrap of difference in strict category-aware span micro-F1",
+  "input_sha256": {
+    "pipeline": "206b83d1dd406a3fd7a78c85e620f162d815ee3959552ceb1347ff7b70a55f99",
+    "xlmr": "d2d8f2d873e55fb928615a74b7820d2017d2e0187482023f889afc133bd3637d",
+    "manifest": "3b59fd312ca5e380fbe0f6827746a53aaf00a982f03c9ea17e7f6902b561281b"
+  },
+  "test_review_count": 200,
+  "resamples": 10000,
+  "seed": 42,
+  "rng": "numpy.random.default_rng",
+  "resampling_unit": "same sampled review indices applied to both models, with replacement",
+  "comparison": "Original ATE pipeline minus low-resource XLM-R",
+  "pipeline": {
+    "tp": 115,
+    "fp": 195,
+    "fn": 27,
+    "micro_f1": 0.5088495575221239,
+    "precision": 0.3709677419354839,
+    "recall": 0.8098591549295775
+  },
+  "xlmr": {
+    "tp": 67,
+    "fp": 76,
+    "fn": 75,
+    "micro_f1": 0.47017543859649125,
+    "precision": 0.46853146853146854,
+    "recall": 0.47183098591549294
+  },
+  "observed_micro_f1_difference": 0.03867411892563266,
+  "paired_bootstrap_95_percentile_interval": [
+    -0.04720142246126931,
+    0.12593062707510225
+  ],
+  "fraction_bootstrap_differences_le_zero": 0.1819,
+  "observed_recall_difference": 0.33802816901408456,
+  "paired_bootstrap_recall_difference_95_percentile_interval": [
+    0.2318840579710144,
+    0.44354990298326463
+  ],
+  "observed_precision_difference": -0.09756372659598467,
+  "paired_bootstrap_precision_difference_95_percentile_interval": [
+    -0.17850562730145994,
+    -0.019078680296271522
+  ],
+  "cautions": [
+    "A percentile bootstrap interval is not itself a valid randomization test p-value; do not present bootstrap sign fraction as a p-value.",
+    "Only one XLM-R training seed and one 80-review development pool are represented.",
+    "Historical lexicon independence is not established by these results."
+  ]
+}

@@ -1,0 +1,518 @@
+﻿normalized_literal,operational_exact_class,fuzzy_only_added_class,exact_plus_fuzzy_class,script04_compatible_class,exact_eval,exact_source,fuzzy_eval,fuzzy_source
+12 pro max,source_only,neither,source_only,source_only,0,1,0,0
+128,both,neither,both,both,1,1,0,0
+12pro,source_only,evaluation_only,both,both,0,1,1,1
+13 mini,both,neither,both,both,1,1,0,0
+13 pro,both,neither,both,both,1,1,0,0
+13pro,both,neither,both,both,1,1,1,1
+13pro max,both,neither,both,both,1,1,0,0
+13promax,source_only,neither,source_only,source_only,0,1,0,1
+14 plus,both,neither,both,both,1,1,0,0
+14 pro,both,neither,both,both,1,1,0,0
+14 പ്രൊ,source_only,neither,source_only,source_only,0,1,0,0
+14 പ്രൊ max,source_only,neither,source_only,source_only,0,1,0,0
+14 പ്രൊmax,neither,neither,neither,neither,0,0,0,0
+23ultra,source_only,evaluation_only,both,both,0,1,1,1
+256,both,neither,both,both,1,1,0,0
+3g,source_only,neither,source_only,source_only,0,1,0,0
+3ജി,neither,neither,neither,neither,0,0,0,0
+4g,both,neither,both,both,1,1,0,0
+4k,both,neither,both,both,1,1,0,0
+4ജി,neither,neither,neither,neither,0,0,0,0
+512,both,neither,both,both,1,1,0,0
+5g,both,neither,both,both,1,1,0,0
+5ജി,source_only,neither,source_only,source_only,0,1,0,0
+64,both,neither,both,both,1,1,0,0
+7 plus,both,neither,both,both,1,1,0,0
+7 se,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+7 പ്ലസ്,both,neither,both,both,1,1,0,0
+a 71,both,neither,both,both,1,1,0,0
+a 73,source_only,neither,source_only,source_only,0,1,0,0
+a14 chip,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+adaptive display,neither,neither,neither,neither,0,0,0,0
+adaptive refresh rate,neither,neither,neither,neither,0,0,0,0
+air pod,source_only,neither,source_only,source_only,0,1,0,0
+air pod pro,source_only,neither,source_only,source_only,0,1,0,0
+airpod,source_only,evaluation_only,both,both,0,1,1,1
+airpodpro,source_only,evaluation_only,both,both,0,1,1,1
+airtel,neither,neither,neither,neither,0,0,0,0
+alcatel,neither,source_only,source_only,source_only,0,0,0,1
+amoled,both,neither,both,both,1,1,0,1
+android,both,neither,both,both,1,1,1,1
+androind package kit,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+animation lag,neither,neither,neither,neither,0,0,0,0
+anti fingerprint,neither,neither,neither,neither,0,0,0,0
+anti glare,neither,neither,neither,neither,0,0,0,0
+antutu,both,neither,both,both,1,1,0,1
+apk,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+app,both,neither,both,both,1,1,0,0
+app load time,neither,neither,neither,neither,0,0,0,0
+apple,both,neither,both,both,1,1,1,1
+apple a14 chip,neither,neither,neither,neither,0,0,0,0
+apps,both,neither,both,both,1,1,1,0
+aspect ratio,neither,neither,neither,neither,0,0,0,0
+asus,both,neither,both,both,1,1,0,0
+back,both,neither,both,both,1,1,1,1
+backup,both,neither,both,both,1,1,1,1
+battery case,source_only,neither,source_only,source_only,0,1,0,0
+benchmark,both,neither,both,both,1,1,0,0
+bend,source_only,evaluation_only,both,both,0,1,1,1
+bend gate,neither,neither,neither,neither,0,0,0,0
+bezel-less,neither,neither,neither,neither,0,0,0,0
+blackshark,neither,neither,neither,neither,0,0,0,0
+block,neither,both,both,both,0,0,1,1
+blu,neither,neither,neither,neither,0,0,0,0
+bluboo,neither,neither,neither,neither,0,0,0,0
+blue light filter,neither,neither,neither,neither,0,0,0,0
+boxy design,both,neither,both,both,1,1,0,0
+budget,both,neither,both,both,1,1,0,1
+buds,both,neither,both,both,1,1,0,1
+bug,both,neither,both,both,1,1,0,0
+build quality,both,neither,both,both,1,1,0,0
+c series,neither,neither,neither,neither,0,0,0,0
+c type,neither,neither,neither,neither,0,0,0,0
+cable,both,neither,both,both,1,1,0,1
+cat phone,neither,neither,neither,neither,0,0,0,0
+charger,both,neither,both,both,1,1,1,1
+charging adapter,both,neither,both,both,1,1,0,0
+charging time,source_only,neither,source_only,source_only,0,1,0,0
+chip,both,neither,both,both,1,1,0,0
+chipset,both,neither,both,both,1,1,0,0
+clarity,both,neither,both,both,1,1,0,0
+clarityt,neither,both,both,both,0,0,1,1
+clear,both,neither,both,both,1,1,1,1
+color accuracy,neither,neither,neither,neither,0,0,0,0
+cooling,both,neither,both,both,1,1,0,1
+coolpad,neither,neither,neither,neither,0,0,0,0
+cpu,both,neither,both,both,1,1,0,0
+crack,source_only,neither,source_only,source_only,0,1,0,0
+curve,source_only,evaluation_only,both,both,0,1,1,1
+curved,both,neither,both,both,1,1,0,1
+curved corners,source_only,neither,source_only,source_only,0,1,0,0
+curved display,both,neither,both,both,1,1,0,0
+cutout,source_only,neither,source_only,source_only,0,1,0,0
+dark mode,both,neither,both,both,1,1,0,0
+dark mode issue,source_only,neither,source_only,source_only,0,1,0,0
+dark theme,neither,neither,neither,neither,0,0,0,0
+dead pixels,neither,neither,neither,neither,0,0,0,0
+dell,source_only,neither,source_only,source_only,0,1,0,0
+display,both,neither,both,both,1,1,1,1
+display quality,both,neither,both,both,1,1,0,0
+dolby vision,source_only,neither,source_only,source_only,0,1,0,0
+doogee,neither,neither,neither,neither,0,0,0,0
+drain,both,neither,both,both,1,1,1,0
+dual,both,neither,both,both,1,1,0,0
+dust resistance,neither,neither,neither,neither,0,0,0,0
+dust resistant,both,neither,both,both,1,1,0,0
+ear phone,neither,neither,neither,neither,0,0,0,0
+edge,both,neither,both,both,1,1,0,1
+edge 20 fusion,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+edge 20 lite,source_only,neither,source_only,source_only,0,1,0,0
+edge 30,both,neither,both,both,1,1,0,0
+edge detection,both,neither,both,both,1,1,0,0
+edge display,neither,neither,neither,neither,0,0,0,0
+edge plus,neither,neither,neither,neither,0,0,0,0
+edition,both,neither,both,both,1,1,1,1
+expensive,source_only,neither,source_only,source_only,0,1,0,0
+exynos,both,neither,both,both,1,1,1,1
+eye comfort mode,neither,neither,neither,neither,0,0,0,0
+facebook,source_only,neither,source_only,source_only,0,1,0,1
+fast,both,neither,both,both,1,1,0,1
+fast charging,both,neither,both,both,1,1,0,0
+fb,source_only,neither,source_only,source_only,0,1,0,0
+find x,neither,neither,neither,neither,0,0,0,0
+finger smudges,neither,neither,neither,neither,0,0,0,0
+fingerprint magnet,source_only,neither,source_only,source_only,0,1,0,0
+flat display,neither,neither,neither,neither,0,0,0,0
+flip 4,neither,neither,neither,neither,0,0,0,0
+focus mode,neither,neither,neither,neither,0,0,0,0
+fold 5,neither,neither,neither,neither,0,0,0,0
+fps,both,neither,both,both,1,1,0,0
+frame drop,both,neither,both,both,1,1,0,0
+frame rate,neither,neither,neither,neither,0,0,0,0
+freezing,neither,both,both,both,0,0,1,1
+front,both,neither,both,both,1,1,0,0
+full hd,source_only,neither,source_only,source_only,0,1,0,0
+g series,neither,neither,neither,neither,0,0,0,0
+galaxy,both,neither,both,both,1,1,0,0
+galaxy s21 ultra,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+game,both,neither,both,both,1,1,0,1
+gaming,both,neither,both,both,1,1,1,1
+gaming mode,neither,neither,neither,neither,0,0,0,0
+gaming performance,source_only,neither,source_only,source_only,0,1,0,0
+gb,both,neither,both,both,1,1,0,0
+geekbench,source_only,neither,source_only,source_only,0,1,0,0
+gen,both,neither,both,both,1,1,0,0
+generation,source_only,neither,source_only,source_only,0,1,0,1
+ghost touch,neither,neither,neither,neither,0,0,0,0
+gionee,source_only,neither,source_only,source_only,0,1,0,1
+gorilla glass,both,neither,both,both,1,1,0,0
+gpu,neither,neither,neither,neither,0,0,0,0
+green line,both,neither,both,both,1,1,0,0
+gt,both,neither,both,both,1,1,0,0
+guided access,neither,neither,neither,neither,0,0,0,0
+hang,both,neither,both,both,1,1,1,1
+hd,both,neither,both,both,1,1,0,0
+hdr,both,neither,both,both,1,1,0,0
+hdr10,source_only,neither,source_only,source_only,0,1,0,0
+head phone,both,neither,both,both,1,1,0,0
+head set,both,neither,both,both,1,1,0,0
+heat,both,neither,both,both,1,1,1,1
+heat issue,neither,neither,neither,neither,0,0,0,0
+heating,both,neither,both,both,1,1,1,0
+heavy usage,source_only,neither,source_only,source_only,0,1,0,0
+high,both,neither,both,both,1,1,0,1
+high fps,neither,neither,neither,neither,0,0,0,0
+honor,both,neither,both,both,1,1,1,1
+hp,source_only,neither,source_only,source_only,0,1,0,0
+huawei,both,neither,both,both,1,1,0,1
+i phone,both,neither,both,both,1,1,0,0
+icloud,neither,source_only,source_only,source_only,0,0,0,1
+image,both,neither,both,both,1,1,0,0
+inch display,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+infinix,both,neither,both,both,1,1,1,1
+intex,neither,both,both,both,0,0,1,1
+ios,both,neither,both,both,1,1,0,0
+ipad 9th gen,both,neither,both,both,1,1,0,0
+ipad air,source_only,neither,source_only,source_only,0,1,0,0
+ipad air 5,source_only,neither,source_only,source_only,0,1,0,0
+ipad mini,source_only,neither,source_only,source_only,0,1,0,0
+ipad pro,both,neither,both,both,1,1,0,0
+ipad pro 2020,neither,neither,neither,neither,0,0,0,0
+iphone,both,neither,both,both,1,1,1,1
+iphone 11,both,neither,both,both,1,1,0,0
+iphone 12,both,neither,both,both,1,1,0,0
+iphone 12 mini,source_only,neither,source_only,source_only,0,1,0,0
+iphone 13,both,neither,both,both,1,1,0,0
+iphone 13 mini,both,neither,both,both,1,1,0,0
+iphone 13 pro,both,neither,both,both,1,1,0,0
+iphone 13pro max,both,neither,both,both,1,1,0,0
+iphone 14,both,neither,both,both,1,1,0,0
+iphone 14 plus,source_only,neither,source_only,source_only,0,1,0,0
+iphone 14 pro,source_only,neither,source_only,source_only,0,1,0,0
+iphone 4s,source_only,neither,source_only,source_only,0,1,0,0
+iphone 5,both,neither,both,both,1,1,0,0
+iphone 5s,both,neither,both,both,1,1,0,0
+iphone 6,both,neither,both,both,1,1,0,0
+iphone 6s,both,neither,both,both,1,1,0,0
+iphone 7,both,neither,both,both,1,1,0,0
+iphone 7 se,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+iphone se,both,neither,both,both,1,1,0,0
+iphone x,both,neither,both,both,1,1,0,0
+iphone xs,both,neither,both,both,1,1,0,0
+iqoo,both,neither,both,both,1,1,0,1
+iqoo 11,source_only,neither,source_only,source_only,0,1,0,0
+itel,source_only,neither,source_only,source_only,0,1,0,1
+itunes,source_only,neither,source_only,source_only,0,1,0,0
+jbl,both,neither,both,both,1,1,0,0
+jio,both,neither,both,both,1,1,0,0
+k series,neither,neither,neither,neither,0,0,0,0
+karbonn,neither,neither,neither,neither,0,0,0,0
+kb,neither,neither,neither,neither,0,0,0,0
+lag,both,neither,both,both,1,1,0,0
+lag free,source_only,neither,source_only,source_only,0,1,0,0
+large display,neither,neither,neither,neither,0,0,0,0
+lava,both,neither,both,both,1,1,0,0
+lcd,both,neither,both,both,1,1,0,0
+led,both,neither,both,both,1,1,0,0
+leeco,neither,neither,neither,neither,0,0,0,0
+lenovo,source_only,neither,source_only,source_only,0,1,0,0
+lens,both,neither,both,both,1,1,0,0
+line issue,both,neither,both,both,1,1,0,0
+look,both,neither,both,both,1,1,1,1
+loud,both,neither,both,both,1,1,0,0
+low,both,neither,both,both,1,1,0,0
+low fps,neither,neither,neither,neither,0,0,0,0
+m1 processor,source_only,neither,source_only,source_only,0,1,0,0
+m14,neither,neither,neither,neither,0,0,0,0
+macbook,both,neither,both,both,1,1,0,0
+max,both,neither,both,both,1,1,0,0
+max pro,neither,neither,neither,neither,0,0,0,0
+mb,both,neither,both,both,1,1,0,0
+meizu,neither,neither,neither,neither,0,0,0,0
+mi,both,neither,both,both,1,1,0,0
+mic,both,neither,both,both,1,1,0,0
+micromax,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+mix fold,neither,neither,neither,neither,0,0,0,0
+mobile,both,neither,both,both,1,1,1,1
+mobile phone,source_only,neither,source_only,source_only,0,1,0,0
+mobile screen,neither,neither,neither,neither,0,0,0,0
+mono,source_only,neither,source_only,source_only,0,1,0,0
+moto,both,neither,both,both,1,1,1,0
+moto edge 20,neither,neither,neither,neither,0,0,0,0
+moto edge 20 lites,neither,neither,neither,neither,0,0,0,0
+moto g 82,source_only,neither,source_only,source_only,0,1,0,0
+motorola edge 40,neither,neither,neither,neither,0,0,0,0
+motorola razr,neither,neither,neither,neither,0,0,0,0
+motorolla,source_only,evaluation_only,both,both,0,1,1,1
+motorolla edge 20 fusion,neither,neither,neither,neither,0,0,0,0
+motorolla edge 20 lite,source_only,neither,source_only,source_only,0,1,0,0
+mp,both,neither,both,both,1,1,0,0
+multitasking,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+multitouch,neither,source_only,source_only,source_only,0,0,0,1
+n series,neither,neither,neither,neither,0,0,0,0
+neo,both,neither,both,both,1,1,0,0
+nokia,both,neither,both,both,1,1,1,1
+non-responsive screen,neither,neither,neither,neither,0,0,0,0
+notch,both,neither,both,both,1,1,0,1
+note,both,neither,both,both,1,1,0,1
+note pro,neither,neither,neither,neither,0,0,0,0
+nothing phone1,source_only,neither,source_only,source_only,0,1,0,0
+notifications,neither,both,both,both,0,0,1,1
+nubia,source_only,neither,source_only,source_only,0,1,0,0
+octa core,neither,neither,neither,neither,0,0,0,0
+oled,both,neither,both,both,1,1,0,0
+oneplus 7t pro,neither,neither,neither,neither,0,0,0,0
+oneplus nord ce 2 lite,neither,neither,neither,neither,0,0,0,0
+oneplus pad,neither,neither,neither,neither,0,0,0,0
+oppo,both,neither,both,both,1,1,0,0
+os,both,neither,both,both,1,1,0,0
+overheating,both,neither,both,both,1,1,1,0
+p series,source_only,neither,source_only,source_only,0,1,0,0
+panasonic,neither,neither,neither,neither,0,0,0,0
+performance,both,neither,both,both,1,1,1,1
+performance issues,neither,neither,neither,neither,0,0,0,0
+periscope,source_only,neither,source_only,source_only,0,1,0,0
+phone screen,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+pic,source_only,neither,source_only,source_only,0,1,0,0
+picture,both,neither,both,both,1,1,0,1
+pixel,both,neither,both,both,1,1,1,1
+pixel quality,neither,neither,neither,neither,0,0,0,0
+play edition,neither,neither,neither,neither,0,0,0,0
+plus,both,neither,both,both,1,1,1,0
+portrait,both,neither,both,both,1,1,1,1
+power,both,neither,both,both,1,1,0,1
+power bank,both,neither,both,both,1,1,0,0
+premium look,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+prime,both,neither,both,both,1,1,1,1
+privacy,source_only,neither,source_only,source_only,0,1,0,1
+pro,both,neither,both,both,1,1,0,0
+pubg,both,neither,both,both,1,1,0,1
+punch hole,both,neither,both,both,1,1,0,0
+punch hole stereo,source_only,neither,source_only,source_only,0,1,0,0
+quad core,neither,neither,neither,neither,0,0,0,0
+quality,both,neither,both,both,1,1,1,1
+ram,both,neither,both,both,1,1,0,0
+ram usage,neither,neither,neither,neither,0,0,0,0
+realme,both,neither,both,both,1,1,1,1
+realme narzo,source_only,neither,source_only,source_only,0,1,0,0
+realmex2pro,neither,source_only,source_only,source_only,0,0,0,1
+rear,both,neither,both,both,1,1,0,1
+red line,neither,neither,neither,neither,0,0,0,0
+redmi,both,neither,both,both,1,1,1,1
+redmi note,both,neither,both,both,1,1,0,0
+redmi note 8,both,neither,both,both,1,1,0,0
+refresh rate,source_only,neither,source_only,source_only,0,1,0,0
+reno series,neither,neither,neither,neither,0,0,0,0
+resolution,both,neither,both,both,1,1,0,0
+responsive,neither,both,both,both,0,0,1,1
+responsive screen,neither,neither,neither,neither,0,0,0,0
+responsiveness,neither,neither,neither,neither,0,0,0,0
+retina,neither,neither,neither,neither,0,0,0,0
+rog,both,neither,both,both,1,1,0,0
+rog phone,source_only,neither,source_only,source_only,0,1,0,0
+s 23 ultra,source_only,neither,source_only,source_only,0,1,0,0
+s pen,both,neither,both,both,1,1,0,0
+s21 ultra,both,neither,both,both,1,1,0,0
+s22,both,neither,both,both,1,1,0,0
+s22 ultra,both,neither,both,both,1,1,0,0
+s23,both,neither,both,both,1,1,0,0
+s23 ultra,both,neither,both,both,1,1,0,0
+s24,both,neither,both,both,1,1,0,0
+s8,both,neither,both,both,1,1,0,0
+samsung,both,neither,both,both,1,1,1,1
+samsung a 71,source_only,neither,source_only,source_only,0,1,0,0
+samsung a 72,neither,neither,neither,neither,0,0,0,0
+samsung m14,neither,neither,neither,neither,0,0,0,0
+samsung s10,both,neither,both,both,1,1,0,0
+samsung s22 ultra,both,neither,both,both,1,1,0,0
+scratch,both,neither,both,both,1,1,1,1
+scratch proof,neither,neither,neither,neither,0,0,0,0
+screen bleeding,neither,neither,neither,neither,0,0,0,0
+screen clarity,neither,neither,neither,neither,0,0,0,0
+screen flicker,neither,neither,neither,neither,0,0,0,0
+screen protector,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+screen ratio,neither,neither,neither,neither,0,0,0,0
+screen refresh rate,neither,neither,neither,neither,0,0,0,0
+screen resolution,neither,neither,neither,neither,0,0,0,0
+screen sharpness,neither,neither,neither,neither,0,0,0,0
+screen size,both,neither,both,both,1,1,0,0
+sd855,neither,source_only,source_only,source_only,0,0,0,1
+sd855plus,neither,neither,neither,neither,0,0,0,0
+sensors,both,neither,both,both,1,1,1,1
+series,both,neither,both,both,1,1,1,1
+service,both,neither,both,both,1,1,1,1
+service center,both,neither,both,both,1,1,0,0
+sharp,neither,source_only,source_only,source_only,0,0,0,1
+size,both,neither,both,both,1,1,0,1
+slow,both,neither,both,both,1,1,0,1
+slowmotion,source_only,evaluation_only,both,both,0,1,1,0
+slowmotion video,source_only,neither,source_only,source_only,0,1,0,0
+slowness,neither,neither,neither,neither,0,0,0,0
+smooth,both,neither,both,both,1,1,1,1
+smoothness,both,neither,both,both,1,1,1,1
+snapdragon,both,neither,both,both,1,1,0,1
+sony,both,neither,both,both,1,1,0,1
+sound clarity,evaluation_only,neither,evaluation_only,evaluation_only,1,0,0,0
+soundcore,both,neither,both,both,1,1,0,0
+speed,both,neither,both,both,1,1,0,1
+storage,both,neither,both,both,1,1,1,1
+stuck,source_only,evaluation_only,both,both,0,1,1,1
+stutter,neither,source_only,source_only,source_only,0,0,0,1
+sunlight visibility,neither,neither,neither,neither,0,0,0,0
+surface duo,neither,neither,neither,neither,0,0,0,0
+switching apps,neither,neither,neither,neither,0,0,0,0
+system stability,neither,neither,neither,neither,0,0,0,0
+tab,both,neither,both,both,1,1,0,0
+tab s9,neither,neither,neither,neither,0,0,0,0
+techno,both,neither,both,both,1,1,1,1
+telephoto,both,neither,both,both,1,1,0,0
+tempered glass,both,neither,both,both,1,1,0,0
+theme issue,neither,neither,neither,neither,0,0,0,0
+theme problem,neither,neither,neither,neither,0,0,0,0
+theme setting,neither,neither,neither,neither,0,0,0,0
+thermal,neither,neither,neither,neither,0,0,0,0
+thermal management,neither,neither,neither,neither,0,0,0,0
+touch,both,neither,both,both,1,1,0,1
+touch not working,neither,neither,neither,neither,0,0,0,0
+touch response,source_only,neither,source_only,source_only,0,1,0,0
+touch sensitivity,neither,neither,neither,neither,0,0,0,0
+uhd,neither,neither,neither,neither,0,0,0,0
+ui performance,neither,neither,neither,neither,0,0,0,0
+ultra,both,neither,both,both,1,1,0,1
+ultra hd,source_only,neither,source_only,source_only,0,1,0,0
+ultrawide,both,neither,both,both,1,1,0,1
+update,both,neither,both,both,1,1,1,1
+usb,both,neither,both,both,1,1,0,0
+utube,neither,neither,neither,neither,0,0,0,0
+v series,neither,neither,neither,neither,0,0,0,0
+video,both,neither,both,both,1,1,0,1
+video edit,source_only,neither,source_only,source_only,0,1,0,0
+warranty,both,neither,both,both,1,1,1,1
+water proof,source_only,neither,source_only,source_only,0,1,0,0
+water resistance,both,neither,both,both,1,1,0,0
+water resistant,both,neither,both,both,1,1,0,0
+watsapp,evaluation_only,source_only,both,both,1,0,1,1
+weight,both,neither,both,both,1,1,0,1
+whatsapp,both,neither,both,both,1,1,1,1
+wide display,neither,neither,neither,neither,0,0,0,0
+windows,both,neither,both,both,1,1,0,0
+worth,both,neither,both,both,1,1,1,1
+x,both,neither,both,both,1,1,0,0
+xender,source_only,neither,source_only,source_only,0,1,0,0
+xiaomi,both,neither,both,both,1,1,1,1
+xiaomi pad 10,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 11,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 12,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 13,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 14,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 15,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 6,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 7,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 8,neither,neither,neither,neither,0,0,0,0
+xiaomi pad 9,neither,neither,neither,neither,0,0,0,0
+xolo,neither,neither,neither,neither,0,0,0,0
+xperia,both,neither,both,both,1,1,0,0
+xperia 1 v,source_only,neither,source_only,source_only,0,1,0,0
+xperia5,neither,both,both,both,0,0,1,1
+xperia5 iv,neither,neither,neither,neither,0,0,0,0
+y series,neither,neither,neither,neither,0,0,0,0
+youtube,both,neither,both,both,1,1,1,1
+yu,neither,neither,neither,neither,0,0,0,0
+z,both,neither,both,both,1,1,0,0
+zenfone,both,neither,both,both,1,1,0,0
+zoom,both,neither,both,both,1,1,0,0
+zooming technology,source_only,neither,source_only,source_only,0,1,0,0
+zte,neither,neither,neither,neither,0,0,0,0
+അപ്ഗ്രേഡ്,both,neither,both,both,1,1,0,1
+ആപ്പിൾ,both,neither,both,both,1,1,1,1
+ആപ്ലിക്കേഷനുകൾ,neither,source_only,source_only,source_only,0,0,0,1
+ആൻഡ്രോയ്ഡ് ഫോൺ,source_only,neither,source_only,source_only,0,1,0,0
+ഇയർഫോൺ,source_only,neither,source_only,source_only,0,1,0,0
+ഐ ഫോൺ,both,neither,both,both,1,1,0,0
+ഐപാഡ്,source_only,neither,source_only,source_only,0,1,0,0
+ഐഫോൺ,both,neither,both,both,1,1,0,1
+ഐഫോൺ 6,both,neither,both,both,1,1,0,0
+ഐഫോൺ se,source_only,neither,source_only,source_only,0,1,0,0
+ഓപ്പറേറ്റിംഗ് സിസ്റ്റം,neither,neither,neither,neither,0,0,0,0
+ഓവർ heating,source_only,neither,source_only,source_only,0,1,0,0
+ഓവർബാസ്,source_only,neither,source_only,source_only,0,1,0,0
+കംപ്രഷൻ,source_only,neither,source_only,source_only,0,1,0,0
+കംപ്രഷൻ ഫോർമാറ്റ്,neither,neither,neither,neither,0,0,0,0
+കപ്പാസിറ്റി,both,neither,both,both,1,1,1,1
+കുഞ്ഞ്,neither,both,both,both,0,0,1,1
+കുഞ്ഞൻ,source_only,evaluation_only,both,both,0,1,1,1
+കൂളിംഗ് സിസ്റ്റം,neither,neither,neither,neither,0,0,0,0
+ക്യാമറ,both,neither,both,both,1,1,1,1
+ക്ലാരിറ്റി,both,neither,both,both,1,1,1,1
+ക്ളാരിറ്റി,source_only,evaluation_only,both,both,0,1,1,1
+ക്വാലിറ്റി,neither,both,both,both,0,0,1,1
+ക്വാളിറ്റി,both,neither,both,both,1,1,1,1
+ചാർജിങ് ടൈം,source_only,neither,source_only,source_only,0,1,0,0
+ചാർജ്,both,neither,both,both,1,1,1,1
+ചാർജ്ജർ,source_only,evaluation_only,both,both,0,1,1,1
+ചിപ്പ് സെറ്റ്,neither,neither,neither,neither,0,0,0,0
+ചെറുത്,evaluation_only,neither,evaluation_only,evaluation_only,1,0,1,0
+ജിബി,both,neither,both,both,1,1,0,0
+ടച്ച്,both,neither,both,both,1,1,0,0
+ടച്ച് സ്ക്രീൻ,both,neither,both,both,1,1,0,0
+ടാബ്,both,neither,both,both,1,1,0,0
+ടാബ്ലറ്റ്,source_only,neither,source_only,source_only,0,1,0,0
+ടാബ്ലെറ്റ്,neither,source_only,source_only,source_only,0,0,0,1
+ടാറ്റ ട്രാൻസ്ഫർ സ്പീഡ്,source_only,neither,source_only,source_only,0,1,0,0
+ടെലിഫോട്ടോ,source_only,neither,source_only,source_only,0,1,0,0
+ഡാറ്റ ട്രാൻസ്ഫഫർ സ്പീഡ്,neither,neither,neither,neither,0,0,0,0
+ഡിസൈൻ,both,neither,both,both,1,1,0,0
+ഡിസ്പപ്ലെ,neither,both,both,both,0,0,1,1
+ഡിസ്പ്ലേ,both,neither,both,both,1,1,1,1
+ഡിസ്പ്ലൈ,both,neither,both,both,1,1,1,1
+ഡ്യുവൽ സിം,neither,neither,neither,neither,0,0,0,0
+പിക്,source_only,evaluation_only,both,both,0,1,1,1
+പിക്സെൽ,neither,both,both,both,0,0,1,1
+പിക്സൽ,both,neither,both,both,1,1,0,1
+പിക്സൽ ക്വാളിറ്റി,neither,neither,neither,neither,0,0,0,0
+പ്രൊസസർ,both,neither,both,both,1,1,1,1
+ഫോക്കസ്,source_only,neither,source_only,source_only,0,1,0,1
+ഫോട്ടോ,both,neither,both,both,1,1,1,1
+ഫോട്ടോഗ്രഫി,source_only,evaluation_only,both,both,0,1,1,1
+ഫോണുകൾ,both,neither,both,both,1,1,1,1
+ഫോൺ,both,neither,both,both,1,1,0,0
+ബാറ്ററി,both,neither,both,both,1,1,1,1
+ബാറ്ററി case,source_only,neither,source_only,source_only,0,1,0,0
+ബാറ്ററി കേസ്,neither,neither,neither,neither,0,0,0,0
+ബാസ്,both,neither,both,both,1,1,0,1
+ബിൽഡ് ക്വാളിറ്റി,source_only,neither,source_only,source_only,0,1,0,0
+ബോഡി,both,neither,both,both,1,1,0,0
+ഭാരം,source_only,neither,source_only,source_only,0,1,0,1
+മുഴക്കം,evaluation_only,source_only,both,both,1,0,0,1
+മൈക്ക്,both,neither,both,both,1,1,1,1
+മൊബൈൽ,both,neither,both,both,1,1,1,1
+മോട്ടോറോള,both,neither,both,both,1,1,1,1
+മൗത്ത്പീസ്,neither,evaluation_only,evaluation_only,evaluation_only,0,0,1,0
+റെക്കോർഡിങ്,source_only,evaluation_only,both,both,0,1,1,1
+റേഞ്ച്,both,neither,both,both,1,1,1,1
+ലാപ്ടോപ്പ്,both,neither,both,both,1,1,1,1
+ലെൻസ്,both,neither,both,both,1,1,0,0
+വലിപ്പം,source_only,evaluation_only,both,both,0,1,1,1
+വാറന്റി,both,neither,both,both,1,1,1,1
+വാറൻറ്റി,neither,both,both,both,0,0,1,1
+വില,both,neither,both,both,1,1,0,0
+വീഡിയോ,both,neither,both,both,1,1,1,1
+വീഡിയോ നിലവാരം,neither,neither,neither,neither,0,0,0,0
+സാംസങ്,both,neither,both,both,1,1,1,1
+സാംസങ് a 72,source_only,neither,source_only,source_only,0,1,0,0
+സെൻസറുകൾ,neither,evaluation_only,evaluation_only,evaluation_only,0,0,1,0
+സെൻസർ,both,neither,both,both,1,1,1,1
+സോഫ്റ്റ്വെയർ,both,neither,both,both,1,1,1,1
+സ്ക്രീൻ,both,neither,both,both,1,1,1,1
+സ്പീക്കർ,both,neither,both,both,1,1,1,1
+സൗണ്ട് ക്ലാരിറ്റി,source_only,neither,source_only,source_only,0,1,0,0
+സർവീസ്,both,neither,both,both,1,1,1,1
+സർവീസ് സെന്റർ,both,neither,both,both,1,1,0,0
+സർവീസ് സെൻറെർ,neither,neither,neither,neither,0,0,0,0
+ഹാങ്,both,neither,both,both,1,1,1,1
+ഹാൻഡ് സെറ്റ്,neither,neither,neither,neither,0,0,0,0
+ഹീറ്റ്,both,neither,both,both,1,1,1,1
+ഹീറ്റ് ഇഷ്യൂ,source_only,neither,source_only,source_only,0,1,0,0
+ഹീറ്റ്ഇഷ്യു,neither,neither,neither,neither,0,0,0,0
+ഹെഡ്ഫോൺ,source_only,neither,source_only,source_only,0,1,0,1

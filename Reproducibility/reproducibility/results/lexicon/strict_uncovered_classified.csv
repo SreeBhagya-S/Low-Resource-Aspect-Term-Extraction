@@ -1,0 +1,37 @@
+﻿original_row_index,gold_start,gold_end,gold_category,gold_surface,status,candidate_categories_same_boundary,candidate_match_types_same_boundary,correct_category_before_context,any_category_same_boundary,correct_category_unfiltered_after_guard,local_token_context
+14,0,1,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,display motion ഒരു 90 hz
+27,13,14,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,cam കൊടുകത്തത് അത് പോലെ display led ആകാമായിരുന്നു
+51,15,16,battery,fast,same_boundary_wrong_category_only,general,exact,0,1,0,ഈ ഫോണിൽ ഒരേയൊരു drawback fast charging ഇല്ല എന്നതാണ്
+54,6,7,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,എന്ന് പറയുന്നത് അതിന്റെ led display മാത്രം നോക്കിയാണ് ചിലർ പറയുന്നത്
+56,4,5,phone,iphone💥🙌🏻✨️,no_same_boundary_candidate,,,0,0,0,അങ്ങനെ ഞാൻ എടുത്തു guys iphone💥🙌🏻✨️
+73,18,19,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,ഞാൻ പറയാം.1 ഡൈനാമിക് amoled display അടിപൊളിയാണ്.2 സ്റ്റീരിയോ സ്പീക്കർ ഒരു
+156,16,17,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,ചെയ്യരുത് bug 🪲 ആണ് display അടിച്ച് പോകും service centre
+159,22,23,camera,photo,no_same_boundary_candidate,,,0,0,0,അല്ലാത്ത feeling varum video photo രണ്ടും
+170,5,6,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,rate ൽ ഏറ്റവും നല്ല display amp
+183,19,20,camera,stream,no_same_boundary_candidate,,,0,0,0,കളിക്കാനും അത് youtube ലേക്ക് stream ചെയ്യാനും സാധിക്കും ഇതായിരിക്കാം ഒരു
+183,77,78,phone,12,no_same_boundary_candidate,,,0,0,0,xs se ഒക്കെ എടുത്തവർ 12 എടുക്കേണ്ട കാര്യം ഇല്ല എന്ന്
+238,6,7,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,രണ്ടെണ്ണം ഉണ്ട് not working display complaint
+262,3,4,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,raj ഏതു curved display phone വാങ്ങിയാലും അതിനുള്ള uv
+306,8,9,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,bro iphone xs oled display quality കിട്ടുന്നത് പോലെ iphone
+321,26,27,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,18w fast charging ips display mediatek dimensity 6020 നല്ല
+354,1,2,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,lcd display phone ഇനി എന്ത് പറഞ്ഞിട്ടും
+366,6,7,phone,s22ultra,no_same_boundary_candidate,,,0,0,0,pakshe oru twist ond s22ultra cheriya worm aavum pakshe
+394,32,33,battery,fast,same_boundary_wrong_category_only,general,exact,0,1,0,eduthu battery drains too fast speaker sound low infinix
+416,4,5,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,വാങ്ങി 2 days ആയപ്പോ display യിൽ 3 line ചാർജ്
+420,10,11,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,മണ്ടത്തരങ്ങളൊക്കെ ചെയ്യാേ always on display എന്ന് പറഞ്ഞ് ഒരു സ്ക്രീൻ
+449,35,37,phone,iphone 6നെ,no_same_boundary_candidate,,,0,0,0,camera ക്ലാരിറ്റി വളരെ കുറവാണു iphone 6നെ അപേക്ഷിച്ച് പിന്നെ മെമ്മറി വളരെ
+452,0,1,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,display എങ്ങനെയുണ്ട് പ്രത്യേകിച്ചു dark mode
+470,2,3,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,6.5 inch display വളരെ ഇഷ്ടപ്പെട്ടു but വാങ്ങാൻ
+492,4,5,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,formfactor കൊള്ളാം boxy design display ui indisplay finger nte
+623,17,18,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,ആയോണ്ട് തന്നെ always on display ഓൺ ആക്കി ഇട്ടാ ചാർജ്
+641,17,18,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,പോലും പറ്റാത്ത പോലെ ഉള്ള display quality and camera ആണ്
+671,24,25,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,ആയേനെ പിന്നെ ഇതുവരെ amoled display കൊണ്ട് വരാത്തതും ഒരു പോരായ്മ
+696,7,8,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,hz or 120 hz display koodi undel മാരകം ആയേനെ
+707,47,48,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,ആണെന്ന് company അവകാശപ്പെടുന്നുണ്ട് qhd display is a flagship feature
+743,20,21,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,42k but 6month aayappol display tane complaint aayi 20%nu
+748,5,6,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,pro യിൽ super amoled display കൂട്ടി ഉണ്ടെങ്കിൽ ❤️❤️
+750,22,23,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,അവസ്ഥ എന്താ always on display feature പോലും ഇല്ല 🤐
+760,43,44,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,ഡിസ്പ്ലേ പോയി വാറൻ്റി ഉള്ളതിനാൽ display മാറി കിട്ടി അന്നേ ദിവസം
+808,1,2,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,അമോലെഡ് display കാണാൻ പൊളിയാണ് പക്ഷെ പൊട്ടികഴിഞ്ഞാൽ
+840,17,18,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,തവണ നിലത്ത് വീണ് കാണും display pottiyilla ഒരു കുഴപ്പവും ഇല്ല
+883,4,5,design,display,same_boundary_wrong_category_only,display,exact,0,1,0,bro samsung m34 notch display matti nirthiyal value 4

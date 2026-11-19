@@ -1,0 +1,66 @@
+{
+  "purpose": "Check mismatching per-form classifications, not infer historical provenance",
+  "source_file_hashes": {
+    "script04_csv_sha256": "522f67e2e22248e27e1be49a3bda27841d61efcdd3ad368ec2b34102ba343600",
+    "script06_csv_sha256": "59aca9f580475537c6db5580dfb99803c8a2448f052e34d1235052f24d301cc8",
+    "original_lexicon_sha256": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab",
+    "pipeline_config_sha256": "56f2ce3854b4b608fc83b5b6917b9987f9d670f625c19983fdb22888bf500839"
+  },
+  "forms_script04": 517,
+  "forms_script06": 517,
+  "form_names_only_in_script04": [],
+  "form_names_only_in_script06": [],
+  "script04_all_match_types_distribution": {
+    "both": 269,
+    "source_only": 95,
+    "evaluation_only": 18,
+    "neither": 135
+  },
+  "script06_compatible_distribution": {
+    "both": 269,
+    "source_only": 95,
+    "evaluation_only": 17,
+    "neither": 136
+  },
+  "script06_operational_exact_distribution": {
+    "both": 239,
+    "source_only": 102,
+    "evaluation_only": 17,
+    "neither": 159
+  },
+  "script06_exact_plus_fuzzy_distribution": {
+    "both": 269,
+    "source_only": 95,
+    "evaluation_only": 17,
+    "neither": 136
+  },
+  "same_form_different_class_count": 1,
+  "different_form_details": [
+    {
+      "normalized_literal": "bezel-less",
+      "script04_class": "evaluation_only",
+      "script06_script04_compatible_class": "neither",
+      "script06_exact_class": "neither",
+      "script06_exact_plus_fuzzy_class": "neither",
+      "script04_exposed_in_evaluation": "1",
+      "script04_exposed_in_text_disjoint_source": "0",
+      "script06_exact_eval": "0",
+      "script06_exact_source": "0",
+      "script06_fuzzy_eval": "0",
+      "script06_fuzzy_source": "0"
+    }
+  ],
+  "active_pipeline_config": {
+    "regex_matching": false,
+    "fuzzy_matching": true,
+    "fuzzy_cutoff": 0.75,
+    "taxonomy": "evaluation16"
+  },
+  "interpretation": [
+    "The script06 candidate_match_types raw counts include regex even if the active pipeline config disables regex matching.",
+    "The 'operational_exact' column uses normalized matcher candidates, not literal substring occurrences.",
+    "Disagreement between 04 and 06 on the same form needs inspection, potentially including nondeterministic selection among normalization variants in original fuzzy matching.",
+    "All exposures are descriptive. They cannot establish that lexicon selection was independent of evaluation reviews.",
+    "The legacy Table 5 recall ceilings and pruned-model metrics are not computed by this script."
+  ]
+}

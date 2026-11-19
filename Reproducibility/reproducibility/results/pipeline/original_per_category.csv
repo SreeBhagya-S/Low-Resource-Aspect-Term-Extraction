@@ -1,0 +1,17 @@
+System,Category,Precision,Recall,F1,Support
+Original fixed ATE pipeline,applications,0.42857142857142855,1.0,0.6,3
+Original fixed ATE pipeline,battery,0.04,0.5,0.07407407407407407,2
+Original fixed ATE pipeline,camera,0.7428571428571429,0.9285714285714286,0.8253968253968255,28
+Original fixed ATE pipeline,design,0.0,0.0,0.0,3
+Original fixed ATE pipeline,display,0.19230769230769232,0.5,0.2777777777777778,10
+Original fixed ATE pipeline,general,0.16666666666666666,0.75,0.27272727272727276,4
+Original fixed ATE pipeline,hardware,0.5,1.0,0.6666666666666666,1
+Original fixed ATE pipeline,memory,0.16666666666666666,1.0,0.2857142857142857,1
+Original fixed ATE pipeline,network,0.6875,1.0,0.8148148148148148,11
+Original fixed ATE pipeline,os,0.75,0.75,0.75,8
+Original fixed ATE pipeline,phone,0.32592592592592595,0.8979591836734694,0.47826086956521735,49
+Original fixed ATE pipeline,price,1.0,0.6666666666666666,0.8,6
+Original fixed ATE pipeline,processor,0.25,0.6666666666666666,0.36363636363636365,3
+Original fixed ATE pipeline,software,0.7,0.5833333333333334,0.6363636363636365,12
+Original fixed ATE pipeline,speaker,0.0,0.0,0.0,0
+Original fixed ATE pipeline,tablet,1.0,1.0,1.0,1

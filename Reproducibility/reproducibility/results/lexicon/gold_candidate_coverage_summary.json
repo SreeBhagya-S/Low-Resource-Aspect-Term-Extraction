@@ -1,0 +1,67 @@
+{
+  "scope": "original evaluation_gold.csv, original matcher on identical pipeline/gold token sequences",
+  "smoke_test_only": false,
+  "evaluation_rows_examined": 1000,
+  "gold_rows_with_at_least_one_span": 500,
+  "gold_spans_in_aligned_rows": 791,
+  "rows_with_tokenization_mismatch": 0,
+  "mismatched_row_indices_first_20": [],
+  "configured_components": {
+    "fuzzy_matching": true,
+    "regex_matching": false,
+    "morphology": true,
+    "category_guard": true,
+    "stopword_sentiment_filter": true,
+    "taxonomy": "evaluation16"
+  },
+  "raw_lexical_candidate_pre_context": {
+    "covered_gold_spans": 755,
+    "gold_spans": 791,
+    "coverage": 0.95448799
+  },
+  "post_category_guard_pre_context": {
+    "covered_gold_spans": 755,
+    "gold_spans": 791,
+    "coverage": 0.95448799
+  },
+  "post_guard_unfiltered_only_pre_context": {
+    "covered_gold_spans": 695,
+    "gold_spans": 791,
+    "coverage": 0.87863464
+  },
+  "active_candidate_match_types": {
+    "exact": 2359,
+    "fuzzy": 631
+  },
+  "gold_category_span_counts": {
+    "phone": 260,
+    "network": 39,
+    "price": 51,
+    "camera": 207,
+    "design": 31,
+    "applications": 13,
+    "software": 48,
+    "os": 29,
+    "processor": 12,
+    "display": 43,
+    "memory": 14,
+    "battery": 17,
+    "hardware": 5,
+    "speaker": 8,
+    "general": 13,
+    "tablet": 1
+  },
+  "sha256": {
+    "gold": "a2a40a160d57497958eec967557f3843051b07fccea5acbb78643f85d053e12e",
+    "lexicon": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab",
+    "config": "56f2ce3854b4b608fc83b5b6917b9987f9d670f625c19983fdb22888bf500839"
+  },
+  "interpretation": [
+    "Strict category and token-boundary match is required for a gold span to be considered covered.",
+    "This is candidate-stage coverage before frozen-mBERT contextual filtering and final overlap selection.",
+    "Active regex configuration is respected; regex patterns are never removed from the original resource.",
+    "Candidate coverage is an upper bound on recall achievable from these lexical candidates, not final pipeline recall.",
+    "A historical Table 5 value is not validated merely because this coverage is close to it.",
+    "Historical lexicon provenance and pruned-lexicon results are NOT established by this script."
+  ]
+}

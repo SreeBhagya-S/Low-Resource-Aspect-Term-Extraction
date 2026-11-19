@@ -1,0 +1,9 @@
+﻿Characteristic,Full corpus (5000),Evaluation (1000),Complement (4000)
+No. of reviews,5000,1000,4000
+Mean length (tokens),15.21,15.82,15.05
+Median length (tokens),10,10,10
+Std. deviation (tokens),17.60,17.36,17.66
+Latin-only tokens (%),39.85,39.82,39.86
+Malayalam-script tokens (%),60.15,60.18,60.14
+Mixed-script reviews (%),92.50,92.40,92.53
+Mean script-based CMI,26.52,26.96,26.41
