@@ -1,0 +1,33 @@
+{
+  "source_reviews": 1000,
+  "test_reviews": 200,
+  "test_indices_first_ten": [
+    521,
+    737,
+    740,
+    660,
+    411,
+    678,
+    626,
+    513,
+    859,
+    136
+  ],
+  "low_resource": {
+    "train": 64,
+    "validation": 16
+  },
+  "full_supervision": {
+    "train": 720,
+    "validation": 80
+  },
+  "test_order_manifest": "C:\\Users\\sreeb\\Desktop\\IDT_R3\\GitHub_R2\\data\\fixed_test_manifest_seed42.csv",
+  "files_sha256": {
+    "data\\evaluation_input.csv": "b10e4122e69ec3b2004560781ac8f43582c2724cd1e452922fe94aea1574567b",
+    "data\\evaluation_gold.csv": "a2a40a160d57497958eec967557f3843051b07fccea5acbb78643f85d053e12e",
+    "data\\fixed_test_manifest_seed42.csv": "3b59fd312ca5e380fbe0f6827746a53aaf00a982f03c9ea17e7f6902b561281b",
+    "data\\dual_regime_protocol_manifest.csv": "127e1afeb9ef1c45bfa7f5fc4b9f81fd7720ed37c0bb9f2147976e2a2c389d0a",
+    "config\\pipeline_config.json": "56f2ce3854b4b608fc83b5b6917b9987f9d670f625c19983fdb22888bf500839",
+    "resources\\aspect_lexicon.txt": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab"
+  }
+}

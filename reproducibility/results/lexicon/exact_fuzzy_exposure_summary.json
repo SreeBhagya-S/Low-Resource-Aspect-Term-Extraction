@@ -1,0 +1,48 @@
+{
+  "note": "This is a diagnostic of lexical candidate exposure, NOT a gold-span recall ceiling or a provenance audit.",
+  "lexicon_sha256": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab",
+  "source_sha256": "668bf317c9ac41dc5b8f1bedd1eec98ae2ca92ae2ff9c3466ce138aa90e5336d",
+  "source_total": 5000,
+  "evaluation_total": 1000,
+  "quarantined_source_text_matches": 1117,
+  "text_disjoint_source_total": 3883,
+  "distinct_normalized_literal_forms": 517,
+  "operational_exact": {
+    "both": 239,
+    "source_only": 102,
+    "evaluation_only": 17,
+    "neither": 159
+  },
+  "exact_plus_fuzzy_excluding_heading_triggers": {
+    "both": 269,
+    "source_only": 95,
+    "evaluation_only": 17,
+    "neither": 136
+  },
+  "script04_compatible_all_match_types": {
+    "both": 269,
+    "source_only": 95,
+    "evaluation_only": 17,
+    "neither": 136
+  },
+  "candidate_match_types": {
+    "evaluation": {
+      "exact": 2361,
+      "fuzzy": 636,
+      "regex": 1155
+    },
+    "source_text_disjoint": {
+      "exact": 8853,
+      "fuzzy": 2301,
+      "regex": 4433
+    }
+  },
+  "cautions": [
+    "Operational exact uses the original normalization variants and is not raw-text substring matching.",
+    "Fuzzy matching at 0.75 is an independent candidate path in the original matcher.",
+    "Category-heading triggers and regex patterns are excluded from the operational exact and exact-plus-fuzzy counts.",
+    "The script04-compatible counts include all matcher candidate types when canonical text coincides with a literal, to cross-check the earlier 04 diagnostic.",
+    "These counts do not prove historical lexicon independence or reproduce Table 5 recall ceilings.",
+    "Results from a --limit smoke test cannot be used in the manuscript."
+  ]
+}

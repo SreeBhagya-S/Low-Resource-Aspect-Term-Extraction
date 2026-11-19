@@ -1,0 +1,65 @@
+{
+  "method": "strict category-aware IOB2 exact-span metrics; whole-review paired exchange randomization under label-exchangeability null",
+  "disclaimer": "Single fixed-trained XLM-R model versus fixed pipeline. Randomization p-values test paired output-exchangeability conditional on these systems and reviews; they do not assess variation across XLM-R training seeds or establish external validity.",
+  "files_sha256": {
+    "pipeline": "206b83d1dd406a3fd7a78c85e620f162d815ee3959552ceb1347ff7b70a55f99",
+    "xlmr": "d2d8f2d873e55fb928615a74b7820d2017d2e0187482023f889afc133bd3637d",
+    "manifest": "3b59fd312ca5e380fbe0f6827746a53aaf00a982f03c9ea17e7f6902b561281b"
+  },
+  "test_reviews": 200,
+  "gold_spans": 142,
+  "pipeline": {
+    "TP": 115,
+    "FP": 195,
+    "FN": 27,
+    "precision": 0.3709677419354839,
+    "recall": 0.8098591549295775,
+    "micro_f1": 0.5088495575221239
+  },
+  "xlmr": {
+    "TP": 67,
+    "FP": 76,
+    "FN": 75,
+    "precision": 0.46853146853146854,
+    "recall": 0.47183098591549294,
+    "micro_f1": 0.47017543859649125
+  },
+  "observed": {
+    "pipeline_minus_xlmr_micro_f1": 0.03867411892563266,
+    "pipeline_minus_xlmr_recall": 0.33802816901408456
+  },
+  "paired_randomization": {
+    "randomizations": 100000,
+    "seed": 42,
+    "randomization_unit": "whole review, swap model prediction vectors with probability 1/2",
+    "two_sided_test": "absolute difference >= observed absolute difference",
+    "monte_carlo_p_correction": "(extreme_count+1)/(randomizations+1)",
+    "recall_exact_two_sided_signflip_p": 3.8957022928734486e-08,
+    "recall_exact_nonzero_review_contributions": 61,
+    "recall_exact_null_total_assignments": "2305843009213693952",
+    "f1_two_sided_p": 0.3912360876391236,
+    "f1_one_sided_pipeline_greater_p": 0.1965780342196578,
+    "recall_two_sided_p": 9.99990000099999e-06,
+    "recall_one_sided_pipeline_greater_p": 9.99990000099999e-06
+  },
+  "paired_bootstrap": {
+    "resamples": 10000,
+    "rng": "default_rng",
+    "seed": 42,
+    "note": "Independent default_rng initialized with same seed as separate historical bootstrap audit",
+    "micro_f1_difference_95pct_percentile_CI": [
+      -0.04720142246126931,
+      0.12593062707510225
+    ],
+    "recall_difference_95pct_percentile_CI": [
+      0.2318840579710144,
+      0.44354990298326463
+    ]
+  },
+  "limitations": [
+    "Exploratory/post-hoc; test set has been examined during revisions",
+    "Permutation null assumes paired model outputs can be exchanged at review level",
+    "No multiple-comparison adjustment",
+    "Does not replace repeated training seeds or a newly annotated independent test"
+  ]
+}

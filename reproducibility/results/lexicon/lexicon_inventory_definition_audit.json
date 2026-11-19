@@ -1,0 +1,71 @@
+{
+  "lexicon_sha256": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab",
+  "raw_nonblank_lines_including_headers": 578,
+  "raw_category_heading_lines": 18,
+  "raw_lexical_entry_lines_excluding_headers": 560,
+  "raw_distinct_casefolded_entry_forms_including_regex": 529,
+  "operational_parser_entries_after_category_dedup": 553,
+  "operational_parser_literal_entries_across_categories": 529,
+  "operational_parser_distinct_normalized_literal_forms": 517,
+  "operational_parser_category_triggers": 18,
+  "operational_parser_regex_entries": 6,
+  "lexicon_categories": [
+    "applications",
+    "battery",
+    "camera",
+    "design",
+    "general",
+    "hardware",
+    "laptop",
+    "memory",
+    "network",
+    "os",
+    "phone",
+    "price",
+    "processor",
+    "screen",
+    "software",
+    "speaker",
+    "tablet",
+    "ui-ux"
+  ],
+  "per_output_category_parsed_entries": {
+    "applications": 20,
+    "battery": 32,
+    "camera": 43,
+    "design": 8,
+    "display": 84,
+    "general": 63,
+    "hardware": 13,
+    "laptop": 4,
+    "memory": 12,
+    "network": 10,
+    "os": 4,
+    "phone": 190,
+    "price": 8,
+    "processor": 17,
+    "software": 18,
+    "speaker": 15,
+    "tablet": 7,
+    "ui-ux": 5
+  },
+  "notes": [
+    "Raw casefolded lexical entries may include regex expressions.",
+    "Operational literal forms exclude regex entries and heading-trigger entries; category aliasing/dedup and lexical normalization apply.",
+    "The 04 diagnostic counts candidate match exposure, including fuzzy matching (cutoff 0.75), not literal exact occurrences.",
+    "None of these inventory counts proves whether the historical lexicon was selected independently of the evaluation corpus."
+  ],
+  "exposure_diagnostic": {
+    "method": "Original LexiconMatcher + original Normalizer; fuzzy cutoff 0.75; no mBERT/context",
+    "source_rows": 5000,
+    "evaluation_rows": 1000,
+    "source_text_disjoint_rows": 3883,
+    "distribution": {
+      "both": 269,
+      "neither": 135,
+      "source_only": 95,
+      "evaluation_only": 18
+    },
+    "distribution_sum": 517
+  }
+}

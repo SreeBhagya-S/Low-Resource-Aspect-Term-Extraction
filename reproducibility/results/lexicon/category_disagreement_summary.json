@@ -1,0 +1,48 @@
+{
+  "scope": "1000 gold reviews; 791 BIO gold spans; original lexical matcher, active config",
+  "smoke_test_only": false,
+  "gold_spans": 791,
+  "strict_correct_category_and_boundary": {
+    "count": 755,
+    "rate": 0.95448799
+  },
+  "category_blind_same_boundary": {
+    "count": 785,
+    "rate": 0.99241466
+  },
+  "among_strict_uncovered_wrong_category_only": 30,
+  "among_strict_uncovered_no_same_boundary_candidate": 6,
+  "correct_category_after_guard_unfiltered": 695,
+  "wrong_category_pairs": [
+    {
+      "gold_category": "design",
+      "candidate_category": "display",
+      "count": 28
+    },
+    {
+      "gold_category": "battery",
+      "candidate_category": "general",
+      "count": 2
+    }
+  ],
+  "current_config": {
+    "regex_matching": false,
+    "fuzzy_matching": true,
+    "fuzzy_cutoff": 0.75,
+    "morphology": true,
+    "category_guard": true,
+    "stopword_sentiment_filter": true,
+    "taxonomy": "evaluation16"
+  },
+  "sha256": {
+    "gold": "a2a40a160d57497958eec967557f3843051b07fccea5acbb78643f85d053e12e",
+    "lexicon": "bbe1360fed3c43f2a0f9abaae6857594b16375efa9dbedbec07c1f9923aedaab",
+    "config": "56f2ce3854b4b608fc83b5b6917b9987f9d670f625c19983fdb22888bf500839"
+  },
+  "caveats": [
+    "Category-blind boundary recall is DIAGNOSTIC ONLY; it is not strict ATE recall and must not replace it.",
+    "Gold annotations must not be altered based on model outputs.",
+    "An alternative candidate category does not establish that the gold category is wrong.",
+    "These counts do not reproduce the historical Table 5 pruned-lexicon experiment."
+  ]
+}
